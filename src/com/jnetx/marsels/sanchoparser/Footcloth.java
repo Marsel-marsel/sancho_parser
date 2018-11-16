@@ -15,6 +15,10 @@ public class Footcloth implements Comparable<Footcloth>{
         this.source = source;
     }
 
+    public Footcloth(Timestamp ts){
+        this.ts = ts;
+    }
+
     public Footcloth(Timestamp ts, File source, String content){
         this.ts = ts;
         this.source = source;
@@ -34,6 +38,10 @@ public class Footcloth implements Comparable<Footcloth>{
         return this.ts;
     }
 
+    public long getTime(){
+        return this.getTs().getTime();
+    }
+
     public File getSource() {
         return source;
     }
@@ -44,8 +52,25 @@ public class Footcloth implements Comparable<Footcloth>{
     }
 
     public void print(PrintStream ps){
+        this.printSource(ps);
         for (String line : content){
             ps.println(line);
         }
+        ps.println();
+    }
+
+    private void printSource(PrintStream ps){
+        int sourceLengh = "Source: ".length() + source.getAbsolutePath().length();
+        StringBuffer highlighter = new StringBuffer();
+        for (int i = 0; i < sourceLengh; i++){
+            highlighter.append("-");
+        }
+        ps.println(highlighter.toString());
+        ps.println("Source: " + source.getAbsolutePath());
+        ps.println(highlighter.toString());
+    }
+
+    public int getContentSize(){
+        return content.size();
     }
 }

@@ -1,0 +1,883 @@
+2018-11-17 12:55:35,737 INFO  TestCommonEmulator [main] : Port 2001 is available
+2018-11-17 12:55:35,738 INFO  TestCommonEmulator [main] : Test emulator starting on port: 2001
+2018-11-17 12:55:35,742 INFO  TestCommonEmulator [main] : Test emulator starting on host: 192.168.248.231
+2018-11-17 12:55:35,924 INFO  TestCommonEmulator [main] : JMX server started.
+2018-11-17 12:55:41,344 INFO  TestDiameterStack  [main] : TestDiameterStack registered
+2018-11-17 12:55:42,710 INFO  TestDiameterStack  [Job_Executor3] : Diameter stack configuring ...
+2018-11-17 12:55:42,789 DEBUG protocol-diameter-base.DiameterProvider [Job_Executor3] : Creating stack instance: com.jnetx.protocol.diameter.base.impl.DiameterStack
+2018-11-17 12:55:42,791 DEBUG protocol-diameter-base.DiameterProvider [Job_Executor3] : Stack class name resolved: com.jnetx.protocol.diameter.base.impl.DiameterStack
+2018-11-17 12:55:42,803 INFO  protocol-diameter-base.DiameterProvider [Job_Executor3] : An instance of the stack is created successfully
+2018-11-17 12:55:42,808 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Registering Diameter Elements Factory Creation extension point
+2018-11-17 12:55:42,808 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Extension point Diameter Elements Factory Creation extension point is successfully registered
+2018-11-17 12:55:42,809 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Registering Receive Answer extension point
+2018-11-17 12:55:42,809 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Extension point Receive Answer extension point is successfully registered
+2018-11-17 12:55:42,810 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Registering Send Request extension point
+2018-11-17 12:55:42,810 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Extension point Send Request extension point is successfully registered
+2018-11-17 12:55:42,812 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Registering Network extension point
+2018-11-17 12:55:42,812 DEBUG protocol-diameter-base.PluginRegistry [Job_Executor3] : Extension point Network extension point is successfully registered
+2018-11-17 12:55:42,813 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:42,816 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:42,816 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:42,818 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:42,901 INFO  debug-api.DebugFactory [Job_Executor3] : System debug unconfigured
+2018-11-17 12:55:42,901 INFO  fw-util.Debug      [Job_Executor3] : System debug category requested: subscriber-tracer-slee
+2018-11-17 12:55:42,901 INFO  fw-util.Debug      [Job_Executor3] : System debug category requested: subscriber-tracer-slee.latencyStatistics
+2018-11-17 12:55:43,088 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:43,140 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:43,164 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:43,174 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:43,225 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:43,256 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://www.example.com:3869, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:43,259 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:43,261 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://www.example.com:3869, aaa://PCRF1:6112]
+2018-11-17 12:55:43,262 INFO  TestDiameterStack  [Job_Executor3] : Diameter stack configured.
+2018-11-17 12:55:43,455 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:43,455 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,455 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:43,455 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,459 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:43,464 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:43,465 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:43,465 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:43,479 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:43,484 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:43,484 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:43,484 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:43,733 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:43,733 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,733 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:43,733 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,747 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:43,752 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:43,754 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:43,754 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:43,757 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:43,760 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:43,760 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:43,761 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:43,893 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:43,893 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,893 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:43,893 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:43,897 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:43,901 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:43,902 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:43,902 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:43,904 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:43,924 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:43,924 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:43,924 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,084 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,084 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,084 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,084 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,088 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,090 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Vendor-Id:23774 Auth-Application-Id:2377402 Acct-Application-Id:2377402
+2018-11-17 12:55:44,092 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,093 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,094 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,096 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,137 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,137 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,137 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,147 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,147 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,147 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,147 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,165 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,169 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:2377402
+2018-11-17 12:55:44,170 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,171 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,172 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,173 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,189 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,189 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,189 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,200 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,201 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,201 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,201 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,206 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,208 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,210 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,211 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,211 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,213 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,217 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,217 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,218 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,227 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,227 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,227 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,228 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,249 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,252 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,253 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,254 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,254 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,256 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,274 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,275 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,275 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,409 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,409 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,409 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,409 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,413 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,416 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,417 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Vendor-Id:23774 Auth-Application-Id:2377402 Acct-Application-Id:2377402
+2018-11-17 12:55:44,418 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,419 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,420 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,422 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,424 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,425 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,425 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,434 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,434 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,434 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,434 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,439 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,442 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,443 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:2377402
+2018-11-17 12:55:44,444 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,445 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,445 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,447 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,449 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,450 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,450 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,459 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,460 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,460 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,460 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,464 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,466 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,466 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,468 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,469 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,469 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,471 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,473 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,473 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,473 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,485 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,485 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,485 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,485 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,488 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,490 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,510 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,512 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,515 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,516 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,517 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,520 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,520 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,520 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,648 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,648 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,648 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,648 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,654 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,656 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,657 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,658 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,659 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,659 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,661 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,664 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,664 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,664 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,784 INFO  TestDiameterStack  [Job_Executor3] : Local peer port = 6112
+2018-11-17 12:55:44,793 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tcp.TcpFactory
+2018-11-17 12:55:44,793 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,793 DEBUG protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : Creating factory instance: com.jnetx.protocol.diameter.base.io.tls.TlsFactory
+2018-11-17 12:55:44,793 INFO  protocol-diameter-base.io.IOFactoryManager [Job_Executor3] : An instance of the factory is created successfully
+2018-11-17 12:55:44,795 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : HostPortPair{host='192.168.248.231', port=0}
+2018-11-17 12:55:44,798 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,798 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [Job_Executor3] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:44,800 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : tcpServerPort=6112
+2018-11-17 12:55:44,800 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Duplication protection: false; Queue size:8000
+2018-11-17 12:55:44,801 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor3] : Create TCP server socket use allias: /192.168.248.231:6112
+2018-11-17 12:55:44,802 DEBUG protocol-diameter-base.RouterPrefCfg [Job_Executor3] : Transport=TCP
+2018-11-17 12:55:44,805 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.addPeer url=aaa://router-out-1.1:6127, priority=0, attemptConnect=false, activated=true, transport=TCP, si=null, address=/192.168.248.231, localBindHost=/192.168.248.231, localBindPort=0
+2018-11-17 12:55:44,805 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : RealmTable()
+2018-11-17 12:55:44,805 DEBUG protocol-diameter-base.peer.RealmTable [Job_Executor3] : addPeerToRealm realmName=jnetx.com, applicationId=23774, vendoId=23774, hosts=[aaa://router-out-1.1:6127, aaa://PCRF1:6112]
+2018-11-17 12:55:44,806 DEBUG TestDiameterStack  [Job_Executor3] : adding StateChangeListener to stack, peerUrl = aaa://router-out-1.1:6127
+2018-11-17 12:55:44,806 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.getPeerInfo url=router-out-1.1
+2018-11-17 12:55:44,806 DEBUG protocol-diameter-base.DiameterStack [Job_Executor3] : State change listener is added successfully. The peer URL: aaa://router-out-1.1:6127
+2018-11-17 12:55:44,807 DEBUG TestDiameterStack  [Job_Executor3] : adding StateChangeListener to stack, peerUrl = aaa://router-out-1.1:6127
+2018-11-17 12:55:44,807 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor3] : PeerTable.getPeerInfo url=router-out-1.1
+2018-11-17 12:55:44,807 DEBUG protocol-diameter-base.DiameterStack [Job_Executor3] : State change listener is added successfully. The peer URL: aaa://router-out-1.1:6127
+2018-11-17 12:55:44,807 DEBUG protocol-diameter-base.DiameterStack [Job_Executor3] : DiameterStack.start: supported applications: [Auth-Application-Id:4]
+2018-11-17 12:55:44,807 DEBUG protocol-diameter-base.TcpSocketProducer [Job_Executor3] : createServerSocket()
+2018-11-17 12:55:45,561 INFO  protocol-diameter-base.peer.PeerController [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : Server connection:Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:55:45,568 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : creating new Peer instance supportedApplications:
+{Auth-Application-Id:4} 
+
+2018-11-17 12:55:45,574 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : FSM change state from idle to Closed
+2018-11-17 12:55:45,574 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : Empty exitAction
+2018-11-17 12:55:45,574 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : PeerState: PeerClosed.entryAction LocaHost
+2018-11-17 12:55:45,574 INFO  protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : Max=2000,Relax=1500
+2018-11-17 12:55:45,575 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=55709,localport=6112] : MessageReader] : LocaHost : SetConnection
+2018-11-17 12:55:45,587 DEBUG protocol-diameter-base.Peer [Diameter-parser-0] : LocaHost : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:45,588 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-0] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@384d2ceb handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:45,588 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@384d2ceb process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:45,588 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 29 on LocaHost : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:55:45,588 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerClosed.onRecCerEvent LocaHost : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:55:45,589 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : LocaHost : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Processing CER message
+2018-11-17 12:55:45,594 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/CER.scr : META-INF/scripts/commands/CER.scr (No such file or directory))
+2018-11-17 12:55:45,594 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/CEA.scr : META-INF/scripts/commands/CEA.scr (No such file or directory))
+2018-11-17 12:55:45,594 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/DWR.scr : META-INF/scripts/commands/DWR.scr (No such file or directory))
+2018-11-17 12:55:45,594 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/DWA.scr : META-INF/scripts/commands/DWA.scr (No such file or directory))
+2018-11-17 12:55:45,594 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/DPR.scr : META-INF/scripts/commands/DPR.scr (No such file or directory))
+2018-11-17 12:55:45,595 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Use default script (Can not append manual script META-INF/scripts/commands/DPA.scr : META-INF/scripts/commands/DPA.scr (No such file or directory))
+2018-11-17 12:55:45,595 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.getPeerInfo url=router-out-1.1
+2018-11-17 12:55:45,596 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: LocaHost : Socket[addr=/192.168.248.231,port=55709,localport=6112]accPeerInfo=Peer[aaa://router-out-1.1]
+2018-11-17 12:55:45,596 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112], peerInfo=Peer[aaa://router-out-1.1:6127], peer=router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:55:45,596 DEBUG protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeerInfo.getCommonApplications()()
+[Auth-Application-Id:2377402, Auth-Application-Id:2377401, Auth-Application-Id:4, Auth-Application-Id:16777302, Vendor-Id:10415 Auth-Application-Id:16777238 Acct-Application-Id:0, Vendor-Id:10415 Auth-Application-Id:4 Acct-Application-Id:0]
+
+accPeerInfo.getSupportedApplications()()
+[Auth-Application-Id:4]
+2018-11-17 12:55:45,596 INFO  protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Connection request from peer: router-out-1.1
+2018-11-17 12:55:45,596 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Connection from router-out-1.1 is accepted.
+2018-11-17 12:55:45,599 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Vendor-Specific-Application-Id
+2018-11-17 12:55:45,600 INFO  protocol-diameter-base.DiameterStack [DiameterPeerSM-LocaHost] : add request listener com.jnetx.test.diameter.stack.common.TestDiameterStack$2@6596c5d9 for applicationId:Auth-Application-Id:4
+2018-11-17 12:55:45,600 DEBUG protocol-diameter-base.peer.LocalPeerMetaData [DiameterPeerSM-LocaHost] : LocalPeerMetaData.addApplication Auth-Application-Id:4
+2018-11-17 12:55:45,600 DEBUG protocol-diameter-base.DiameterStack [DiameterPeerSM-LocaHost] : Register listener com.jnetx.test.diameter.stack.common.TestDiameterStack$2@6596c5d9 for applicationId:Auth-Application-Id:4
+2018-11-17 12:55:45,600 INFO  StateChangeListener [DiameterPeerSM-LocaHost] : Notification was created
+2018-11-17 12:55:45,601 ERROR StateChangeListener [DiameterPeerSM-LocaHost] : systemCommandSend
+com.jnetx.protocol.diameter.base.common.AppBusyException: Auth-Application-Id:4 already append
+	at com.jnetx.protocol.diameter.base.impl.DiameterStack.addRequestListener(DiameterStack.java:253)
+	at com.jnetx.test.diameter.stack.common.TestDiameterStack.createNotification(TestDiameterStack.java:410)
+	at com.jnetx.test.diameter.stack.common.StateChangeListener.systemCommandSend(StateChangeListener.java:121)
+	at com.jnetx.protocol.diameter.base.peer.Peer$StateContext.systemCommandSend(Peer.java:1394)
+	at com.jnetx.protocol.diameter.base.peer.Peer$StateContext.processCerMessage(Peer.java:1126)
+	at com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed.onRecCerEvent(PeerClosed.java:79)
+	at com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerStateBase.processEvent(PeerStateBase.java:94)
+	at com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerStateMachine.processingEvent(PeerStateMachine.java:294)
+	at com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerStateMachine.run(PeerStateMachine.java:163)
+	at java.lang.Thread.run(Thread.java:744)
+2018-11-17 12:55:45,604 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : FSM change state from com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed to Open
+2018-11-17 12:55:45,604 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : Empty exitAction
+2018-11-17 12:55:45,604 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.entryAction router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:55:45,604 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Sending buffer.
+2018-11-17 12:55:45,613 INFO  se-util.ThreadPool [DiameterPeerSM-LocaHost] : ThreadPool(): hpte.num=1
+2018-11-17 12:55:45,645 INFO  histogram-factory  [DiameterPeerSM-LocaHost] : 0 counter histograms are restored
+2018-11-17 12:55:45,645 INFO  ash-factory        [DiameterPeerSM-LocaHost] : 0 counter latency histograms are restored
+2018-11-17 12:55:45,646 INFO  persistence-factory [DiameterPeerSM-LocaHost] : Initialized 0 counters to persist
+2018-11-17 12:55:45,646 INFO  persistence-factory [DiameterPeerSM-LocaHost] : 0 persistent counters are restored
+2018-11-17 12:55:45,652 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SequentionalExecuter->queueSize INCREMENTAL LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,656 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SequentionalExecuter->totalProcessedTasks CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,656 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SequentionalExecuter->totalWaitingTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,656 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SequentionalExecuter->totalExecutionTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,657 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->LowPriorityExecuter->queueSize INCREMENTAL LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,657 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->LowPriorityExecuter->totalProcessedTasks CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->LowPriorityExecuter->totalWaitingTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->LowPriorityExecuter->totalExecutionTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->PoolExecuter->queueSize INCREMENTAL LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->PoolExecuter->totalProcessedTasks CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->PoolExecuter->totalWaitingTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,658 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->PoolExecuter->totalExecutionTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,659 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SocketWriterExecuter->queueSize INCREMENTAL LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,659 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SocketWriterExecuter->totalProcessedTasks CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,659 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SocketWriterExecuter->totalWaitingTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,659 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->SocketWriterExecuter->totalExecutionTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,662 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->HighPriorityExecuter->queueSize INCREMENTAL LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,662 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->HighPriorityExecuter->totalProcessedTasks CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,662 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->HighPriorityExecuter->totalWaitingTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,662 DEBUG node-management-impl.counter-group [DiameterPeerSM-LocaHost] : Counter requested jnetx.statistic:name=se-util-statistic->HighPriorityExecuter->totalExecutionTime CUMULATIVE LONG as com.jnetx.management.statistics.NamedLongCounter
+2018-11-17 12:55:45,671 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : Peer$StateContext.stateChangeNotification() found 2 listeners
+2018-11-17 12:55:45,671 INFO  StateChangeListener [DiameterPeerSM-LocaHost] : [stateChanged] Peer aaa://router-out-1.1:6127 state changed from [STATE_CLOSED] to [STATE_OPEN]
+2018-11-17 12:55:45,671 INFO  StateChangeListener [DiameterPeerSM-LocaHost] : [stateChanged] Peer aaa://router-out-1.1:6127 state changed from [STATE_CLOSED] to [STATE_OPEN]
+2018-11-17 12:55:46,455 INFO  protocol-diameter-base.peer.PeerController [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : Server connection:Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:55:46,455 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : creating new Peer instance supportedApplications:
+{Auth-Application-Id:4} 
+
+2018-11-17 12:55:46,455 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : FSM change state from idle to Closed
+2018-11-17 12:55:46,455 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : Empty exitAction
+2018-11-17 12:55:46,456 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : PeerState: PeerClosed.entryAction LocaHost
+2018-11-17 12:55:46,456 INFO  protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : Max=2000,Relax=1500
+2018-11-17 12:55:46,456 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=60513,localport=6112] : MessageReader] : LocaHost : SetConnection
+2018-11-17 12:55:46,456 DEBUG protocol-diameter-base.Peer [Diameter-parser-1] : LocaHost : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1462763590])
+2018-11-17 12:55:46,456 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-1] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@41f9ef24 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1462763590])
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@41f9ef24 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1462763590])
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 29 on LocaHost : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerClosed.onRecCerEvent LocaHost : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : LocaHost : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Processing CER message
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.getPeerInfo url=router-out-1.4
+2018-11-17 12:55:46,457 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: LocaHost : Socket[addr=/192.168.248.231,port=60513,localport=6112]accPeerInfo=Peer[aaa://router-out-1.4]
+2018-11-17 12:55:46,457 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.addPeer url=aaa://router-out-1.4, priority=0, attemptConnect=false, activated=true, transport=null, si=null, address=null, localBindHost=null, localBindPort=0
+2018-11-17 12:55:46,457 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112], peerInfo=Peer[aaa://router-out-1.4], peer=router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeerInfo.getCommonApplications()()
+[Auth-Application-Id:2377402, Auth-Application-Id:2377401, Auth-Application-Id:4, Auth-Application-Id:16777302, Vendor-Id:10415 Auth-Application-Id:16777238 Acct-Application-Id:0, Vendor-Id:10415 Auth-Application-Id:4 Acct-Application-Id:0]
+
+accPeerInfo.getSupportedApplications()()
+[Auth-Application-Id:4]
+2018-11-17 12:55:46,458 INFO  protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Connection request from peer: router-out-1.4
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Connection from router-out-1.4 is accepted.
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Vendor-Specific-Application-Id
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : FSM change state from com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed to Open
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : Empty exitAction
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.entryAction router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:55:46,458 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Sending buffer.
+2018-11-17 12:55:49,781 INFO  protocol-diameter-base.peer.PeerController [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : Server connection:Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:55:49,781 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : creating new Peer instance supportedApplications:
+{Auth-Application-Id:4} 
+
+2018-11-17 12:55:49,781 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : FSM change state from idle to Closed
+2018-11-17 12:55:49,781 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : Empty exitAction
+2018-11-17 12:55:49,781 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : PeerState: PeerClosed.entryAction LocaHost
+2018-11-17 12:55:49,781 INFO  protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : Max=2000,Relax=1500
+2018-11-17 12:55:49,781 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=46294,localport=6112] : MessageReader] : LocaHost : SetConnection
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.Peer [Diameter-parser-2] : LocaHost : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1333788792])
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-2] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@1cc8b088 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1333788792])
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@1cc8b088 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1333788792])
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 29 on LocaHost : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerClosed.onRecCerEvent LocaHost : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : LocaHost : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Processing CER message
+2018-11-17 12:55:49,783 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.getPeerInfo url=router-out-1.3
+2018-11-17 12:55:49,784 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: LocaHost : Socket[addr=/192.168.248.231,port=46294,localport=6112]accPeerInfo=Peer[aaa://router-out-1.3]
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.addPeer url=aaa://router-out-1.3, priority=0, attemptConnect=false, activated=true, transport=null, si=null, address=null, localBindHost=null, localBindPort=0
+2018-11-17 12:55:49,784 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112], peerInfo=Peer[aaa://router-out-1.3], peer=router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeerInfo.getCommonApplications()()
+[Auth-Application-Id:2377402, Auth-Application-Id:2377401, Auth-Application-Id:4, Auth-Application-Id:16777302, Vendor-Id:10415 Auth-Application-Id:16777238 Acct-Application-Id:0, Vendor-Id:10415 Auth-Application-Id:4 Acct-Application-Id:0]
+
+accPeerInfo.getSupportedApplications()()
+[Auth-Application-Id:4]
+2018-11-17 12:55:49,784 INFO  protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Connection request from peer: router-out-1.3
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Connection from router-out-1.3 is accepted.
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Vendor-Specific-Application-Id
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : FSM change state from com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed to Open
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : Empty exitAction
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.entryAction router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:55:49,784 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Sending buffer.
+2018-11-17 12:55:51,701 INFO  protocol-diameter-base.peer.PeerController [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : Server connection:Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:55:51,701 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : creating new Peer instance supportedApplications:
+{Auth-Application-Id:4} 
+
+2018-11-17 12:55:51,701 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : FSM change state from idle to Closed
+2018-11-17 12:55:51,701 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : Empty exitAction
+2018-11-17 12:55:51,701 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : PeerState: PeerClosed.entryAction LocaHost
+2018-11-17 12:55:51,701 INFO  protocol-diameter-base.peer.fsm.PeerStateMachine [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : Max=2000,Relax=1500
+2018-11-17 12:55:51,701 DEBUG protocol-diameter-base.Peer [Socket[addr=/192.168.248.231,port=55187,localport=6112] : MessageReader] : LocaHost : SetConnection
+2018-11-17 12:55:51,702 DEBUG protocol-diameter-base.Peer [Diameter-parser-3] : LocaHost : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:51,702 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-3] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@7eb37922 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed@7eb37922 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=256; Flag=0x80; ComCode=257; ApplicationId=0; H&HID=12; EndID=1201668228])
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 29 on LocaHost : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerClosed.onRecCerEvent LocaHost : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : LocaHost : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Processing CER message
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.getPeerInfo url=router-out-1.2
+2018-11-17 12:55:51,703 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: LocaHost : Socket[addr=/192.168.248.231,port=55187,localport=6112]accPeerInfo=Peer[aaa://router-out-1.2]
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.router.PeerTable [DiameterPeerSM-LocaHost] : PeerTable.addPeer url=aaa://router-out-1.2, priority=0, attemptConnect=false, activated=true, transport=null, si=null, address=null, localBindHost=null, localBindPort=0
+2018-11-17 12:55:51,703 INFO  protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeer: router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112], peerInfo=Peer[aaa://router-out-1.2], peer=router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:55:51,703 DEBUG protocol-diameter-base.peer.PeerController [DiameterPeerSM-LocaHost] : accPeerInfo.getCommonApplications()()
+[Auth-Application-Id:2377402, Auth-Application-Id:2377401, Auth-Application-Id:4, Auth-Application-Id:16777302, Vendor-Id:10415 Auth-Application-Id:16777238 Acct-Application-Id:0, Vendor-Id:10415 Auth-Application-Id:4 Acct-Application-Id:0]
+
+accPeerInfo.getSupportedApplications()()
+[Auth-Application-Id:4]
+2018-11-17 12:55:51,703 INFO  protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Connection request from peer: router-out-1.2
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Connection from router-out-1.2 is accepted.
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.peer.commands [DiameterPeerSM-LocaHost] : Vendor-Specific-Application-Id
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : FSM change state from com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerClosed to Open
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : Empty exitAction
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.entryAction router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:55:51,704 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Sending buffer.
+2018-11-17 12:56:15,637 DEBUG protocol-diameter-base.Peer [Diameter-parser-4] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668242])
+2018-11-17 12:56:15,637 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-4] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668242])
+2018-11-17 12:56:15,638 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668242])
+2018-11-17 12:56:15,638 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:15,638 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:15,638 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:16,460 DEBUG protocol-diameter-base.Peer [Diameter-parser-5] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1462763607])
+2018-11-17 12:56:16,461 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-5] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1462763607])
+2018-11-17 12:56:16,461 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1462763607])
+2018-11-17 12:56:16,461 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:56:16,461 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:56:16,461 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:19,787 DEBUG protocol-diameter-base.Peer [Diameter-parser-6] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1333788809])
+2018-11-17 12:56:19,787 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-6] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1333788809])
+2018-11-17 12:56:19,788 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1333788809])
+2018-11-17 12:56:19,788 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:56:19,788 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:56:19,788 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.Peer [Diameter-parser-7] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668243])
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-7] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668243])
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=13; EndID=1201668243])
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:56:21,707 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:45,651 DEBUG protocol-diameter-base.Peer [Diameter-parser-8] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668259])
+2018-11-17 12:56:45,651 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-8] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668259])
+2018-11-17 12:56:45,651 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668259])
+2018-11-17 12:56:45,651 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:45,651 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:45,652 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.Peer [Diameter-parser-9] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1462763624])
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-9] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1462763624])
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1462763624])
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:56:46,464 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:49,791 DEBUG protocol-diameter-base.Peer [Diameter-parser-10] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1333788826])
+2018-11-17 12:56:49,791 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-10] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1333788826])
+2018-11-17 12:56:49,792 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1333788826])
+2018-11-17 12:56:49,792 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:56:49,792 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:56:49,792 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:51,714 DEBUG protocol-diameter-base.Peer [Diameter-parser-11] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668260])
+2018-11-17 12:56:51,715 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-11] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668260])
+2018-11-17 12:56:51,715 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=14; EndID=1201668260])
+2018-11-17 12:56:51,715 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:56:51,715 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:56:51,715 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:56:52,587 DEBUG protocol-diameter-base.Peer [Diameter-parser-12] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=15; EndID=1740636163]) on session DiameterClientGy_ASRScenario;-15306223;2643595264
+2018-11-17 12:56:52,587 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-12] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=15; EndID=1740636163])
+2018-11-17 12:56:52,587 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=15; EndID=1740636163])
+2018-11-17 12:56:52,587 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 24 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:52,587 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onReceivedMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:52,596 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Header application id: 4
+2018-11-17 12:56:52,596 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Found auth-app-id: Auth-Application-Id:4
+2018-11-17 12:56:52,596 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : Received request DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=15; EndID=1740636163])
+2018-11-17 12:56:52,607 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : IDiameterMessage[
+Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=15; EndID=1740636163]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Destination-Realm(283) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Destination-Host(293) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Host(264) l=36 f=M- t=octetString v=DiameterClientGy_ASRScenario
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=jnetx.com
+	AVP: Multiple-Services-Credit-Control(456) l=84 f=M- t=group v=
+				AVP: Rating-Group(432) l=12 f=M- t=uint32 v=1000
+				AVP: Used-Service-Unit(446) l=52 f=M- t=group v=
+							AVP: CC-Total-Octets(421) l=16 f=M- t=uint64 v=5000000
+							AVP: Unknown avp(412) l=16 f=M- v=000000000002e061
+							AVP: Reporting-Reason(872) l=12 f=M- t=int32 v=3
+				AVP: Service-Identifier(439) l=12 f=M- t=int32 v=2
+	AVP: Vendor-Id(266) l=12 f=M- t=uint32 v=10415
+	AVP: Auth-Application-Id(258) l=12 f=M- t=uint32 v=4
+	AVP: Acct-Application-Id(259) l=12 f=M- t=uint32 v=0
+	AVP: Subscription-ID(443) l=32 f=M- t=group v=
+				AVP: Subscription-ID-Type(450) l=12 f=M- t=int32 v=0
+				AVP: Subscription-ID-Data(444) l=12 f=M- t=utf8String v=111
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=0
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=1
+
+]
+2018-11-17 12:56:52,979 INFO  DiameterMessageCreator [Job_Executor0] : CHECKRECTYPE 1
+2018-11-17 12:56:53,104 INFO  MessageSender      [Job_Executor0] : IDiameterMessage[
+Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=15; EndID=1676673062]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Result-Code(268) l=12 f=M- t=uint32 v=2001
+	AVP: Origin-Host(264) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Auth-Application-Id(258) l=16 f=M- t=uint32 v=0
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=1
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=0
+
+]
+2018-11-17 12:56:53,104 INFO  TestDiameterStack  [Job_Executor0] : Sending response
+2018-11-17 12:56:53,107 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor0] : Answer processing start.
+2018-11-17 12:56:53,112 WARN  protocol-diameter-base.router.Router [Job_Executor0] : Can not get Destination-realm-avp, use default realm
+java.lang.NullPointerException
+	at com.jnetx.protocol.diameter.base.peer.router.impl.Router.getPeerUseRoutInfo(Router.java:263)
+	at com.jnetx.protocol.diameter.base.peer.PeerController.sendMessage(PeerController.java:1365)
+	at com.jnetx.protocol.diameter.base.peer.DiameterMessage.send(DiameterMessage.java:289)
+	at com.jnetx.test.diameter.stack.common.TestDiameterStack.send(TestDiameterStack.java:114)
+	at com.jnetx.test.diameter.stack.common.MessageSender.send(MessageSender.java:22)
+	at com.jnetx.test.diameter.stack.common.TestDiameterStack.send(TestDiameterStack.java:418)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:279)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.jnetx.jmx.remote.base.ServerIntermediary.handleRequest(ServerIntermediary.java:272)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$PrivilegedRequestJob.run(ServerIntermediary.java:944)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$RequestHandler.handleMBSReqMessage(ServerIntermediary.java:719)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$RequestHandler.execute(ServerIntermediary.java:621)
+	at com.jnetx.jmx.remote.base.ServerSynchroMessageConnectionImpl$RemoteJob.run(ServerSynchroMessageConnectionImpl.java:263)
+	at com.jnetx.jmx.remote.util.ThreadService$ThreadServiceJob.run(ThreadService.java:211)
+	at com.jnetx.jmx.remote.util.JobExecutor.run(JobExecutor.java:55)
+2018-11-17 12:56:53,112 DEBUG protocol-diameter-base.router.Router [Job_Executor0] : Found hosts:router-out-1.1,PCRF1,
+2018-11-17 12:56:53,112 DEBUG protocol-diameter-base.router.Router [Job_Executor0] : Use: jNETx StaticStandBy-3588 Diameter Balancer
+2018-11-17 12:56:53,112 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor0] : PeerTable.getPeerInfo url=router-out-1.1
+2018-11-17 12:56:53,112 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor0] : PeerTable.getPeerInfo url=PCRF1
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.balancer.BalancerBase [Job_Executor0] : 
+peers in jnetx.com:
+Peer[aaa://router-out-1.1:6127] state:2 timeoutedPeers:0
+
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.router.Router [Job_Executor0] : choosed peer is Peer[aaa://router-out-1.1:6127]
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.Peer [Job_Executor0] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Send message DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=15; EndID=1676673062])
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Job_Executor0] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=16 Data=DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=15; EndID=1676673062])
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor0] : Answer processed.
+2018-11-17 12:56:53,113 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=16 Data=DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=15; EndID=1676673062])
+2018-11-17 12:56:53,114 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 16 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:53,114 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onSendMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:53,114 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : SendMessage:tracer id com.jnetx.tracer.api.TracerDisabled@2f5d6f48(class com.jnetx.tracer.api.TracerDisabled)
+2018-11-17 12:56:53,114 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : Response is sent: DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=15; EndID=1676673062]) sessionID=DiameterClientGy_ASRScenario;-15306223;2643595264 to Peer[aaa://router-out-1.1:6127]
+2018-11-17 12:56:54,632 DEBUG protocol-diameter-base.Peer [Diameter-parser-13] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=16; EndID=1740636165]) on session DiameterClientGy_ASRScenario;-15306223;2643595264
+2018-11-17 12:56:54,632 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-13] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=16; EndID=1740636165])
+2018-11-17 12:56:54,633 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=16; EndID=1740636165])
+2018-11-17 12:56:54,633 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 24 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:54,633 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onReceivedMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:54,633 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Header application id: 4
+2018-11-17 12:56:54,633 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Found auth-app-id: Auth-Application-Id:4
+2018-11-17 12:56:54,633 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : Received request DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=16; EndID=1740636165])
+2018-11-17 12:56:54,634 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : IDiameterMessage[
+Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=16; EndID=1740636165]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Destination-Realm(283) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Destination-Host(293) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Host(264) l=36 f=M- t=octetString v=DiameterClientGy_ASRScenario
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=jnetx.com
+	AVP: Multiple-Services-Credit-Control(456) l=84 f=M- t=group v=
+				AVP: Rating-Group(432) l=12 f=M- t=uint32 v=1000
+				AVP: Used-Service-Unit(446) l=52 f=M- t=group v=
+							AVP: CC-Total-Octets(421) l=16 f=M- t=uint64 v=5000000
+							AVP: Unknown avp(412) l=16 f=M- v=000000000002e061
+							AVP: Reporting-Reason(872) l=12 f=M- t=int32 v=3
+				AVP: Service-Identifier(439) l=12 f=M- t=int32 v=2
+	AVP: Vendor-Id(266) l=12 f=M- t=uint32 v=10415
+	AVP: Auth-Application-Id(258) l=12 f=M- t=uint32 v=4
+	AVP: Acct-Application-Id(259) l=12 f=M- t=uint32 v=0
+	AVP: Subscription-ID(443) l=32 f=M- t=group v=
+				AVP: Subscription-ID-Type(450) l=12 f=M- t=int32 v=0
+				AVP: Subscription-ID-Data(444) l=12 f=M- t=utf8String v=111
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=1
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=2
+
+]
+2018-11-17 12:56:55,389 INFO  DiameterMessageCreator [Job_Executor2] : CHECKRECTYPE 1
+2018-11-17 12:56:55,844 INFO  MessageSender      [Job_Executor2] : IDiameterMessage[
+Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=16; EndID=1676673064]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Result-Code(268) l=12 f=M- t=uint32 v=2001
+	AVP: Origin-Host(264) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Auth-Application-Id(258) l=16 f=M- t=uint32 v=0
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=2
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=1
+
+]
+2018-11-17 12:56:55,845 INFO  TestDiameterStack  [Job_Executor2] : Sending response
+2018-11-17 12:56:55,845 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor2] : Answer processing start.
+2018-11-17 12:56:55,845 WARN  protocol-diameter-base.router.Router [Job_Executor2] : Can not get Destination-realm-avp, use default realm
+java.lang.NullPointerException
+	at com.jnetx.protocol.diameter.base.peer.router.impl.Router.getPeerUseRoutInfo(Router.java:263)
+	at com.jnetx.protocol.diameter.base.peer.PeerController.sendMessage(PeerController.java:1365)
+	at com.jnetx.protocol.diameter.base.peer.DiameterMessage.send(DiameterMessage.java:289)
+	at com.jnetx.test.diameter.stack.common.TestDiameterStack.send(TestDiameterStack.java:114)
+	at com.jnetx.test.diameter.stack.common.MessageSender.send(MessageSender.java:22)
+	at com.jnetx.test.diameter.stack.common.TestDiameterStack.send(TestDiameterStack.java:418)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:75)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:279)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.jnetx.jmx.remote.base.ServerIntermediary.handleRequest(ServerIntermediary.java:272)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$PrivilegedRequestJob.run(ServerIntermediary.java:944)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$RequestHandler.handleMBSReqMessage(ServerIntermediary.java:719)
+	at com.jnetx.jmx.remote.base.ServerIntermediary$RequestHandler.execute(ServerIntermediary.java:621)
+	at com.jnetx.jmx.remote.base.ServerSynchroMessageConnectionImpl$RemoteJob.run(ServerSynchroMessageConnectionImpl.java:263)
+	at com.jnetx.jmx.remote.util.ThreadService$ThreadServiceJob.run(ThreadService.java:211)
+	at com.jnetx.jmx.remote.util.JobExecutor.run(JobExecutor.java:55)
+2018-11-17 12:56:55,846 DEBUG protocol-diameter-base.router.Router [Job_Executor2] : Found hosts:router-out-1.1,PCRF1,
+2018-11-17 12:56:55,846 DEBUG protocol-diameter-base.router.Router [Job_Executor2] : Use: jNETx StaticStandBy-3588 Diameter Balancer
+2018-11-17 12:56:55,846 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor2] : PeerTable.getPeerInfo url=router-out-1.1
+2018-11-17 12:56:55,846 DEBUG protocol-diameter-base.router.PeerTable [Job_Executor2] : PeerTable.getPeerInfo url=PCRF1
+2018-11-17 12:56:55,846 DEBUG protocol-diameter-base.balancer.BalancerBase [Job_Executor2] : 
+peers in jnetx.com:
+Peer[aaa://router-out-1.1:6127] state:2 timeoutedPeers:0
+
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.balancer.BalancerBase [Job_Executor2] : Checking peer aaa://router-out-1.1:6127 for session failover. Peer state is 2 this.onlySendWhenConnectionWorking=true
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.router.Router [Job_Executor2] : choosed peer is Peer[aaa://router-out-1.1:6127]
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.Peer [Job_Executor2] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Send message DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=16; EndID=1676673064])
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Job_Executor2] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=16 Data=DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=16; EndID=1676673064])
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.peer.PeerController [Job_Executor2] : Answer processed.
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=16 Data=DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=16; EndID=1676673064])
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 16 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onSendMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : SendMessage:tracer id com.jnetx.tracer.api.TracerDisabled@2f5d6f48(class com.jnetx.tracer.api.TracerDisabled)
+2018-11-17 12:56:55,847 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : Response is sent: DiameterMessage (Header [Ver=1; Len=168; Flag=0x0; ComCode=272; ApplicationId=4; H&HID=16; EndID=1676673064]) sessionID=DiameterClientGy_ASRScenario;-15306223;2643595264 to Peer[aaa://router-out-1.1:6127]
+2018-11-17 12:56:57,228 DEBUG protocol-diameter-base.Peer [Diameter-parser-14] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=17; EndID=1740636167]) on session DiameterClientGy_ASRScenario;-15306223;2643595264
+2018-11-17 12:56:57,228 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-14] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=17; EndID=1740636167])
+2018-11-17 12:56:57,228 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=17; EndID=1740636167])
+2018-11-17 12:56:57,229 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 24 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:57,229 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onReceivedMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:56:57,229 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Header application id: 4
+2018-11-17 12:56:57,229 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Found auth-app-id: Auth-Application-Id:4
+2018-11-17 12:56:57,229 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : Received request DiameterMessage (Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=17; EndID=1740636167])
+2018-11-17 12:56:57,230 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : IDiameterMessage[
+Header [Ver=1; Len=348; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=17; EndID=1740636167]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Destination-Realm(283) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Destination-Host(293) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Host(264) l=36 f=M- t=octetString v=DiameterClientGy_ASRScenario
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=jnetx.com
+	AVP: Multiple-Services-Credit-Control(456) l=84 f=M- t=group v=
+				AVP: Rating-Group(432) l=12 f=M- t=uint32 v=1000
+				AVP: Used-Service-Unit(446) l=52 f=M- t=group v=
+							AVP: CC-Total-Octets(421) l=16 f=M- t=uint64 v=5000000
+							AVP: Unknown avp(412) l=16 f=M- v=000000000002e061
+							AVP: Reporting-Reason(872) l=12 f=M- t=int32 v=3
+				AVP: Service-Identifier(439) l=12 f=M- t=int32 v=2
+	AVP: Vendor-Id(266) l=12 f=M- t=uint32 v=10415
+	AVP: Auth-Application-Id(258) l=12 f=M- t=uint32 v=4
+	AVP: Acct-Application-Id(259) l=12 f=M- t=uint32 v=0
+	AVP: Subscription-ID(443) l=32 f=M- t=group v=
+				AVP: Subscription-ID-Type(450) l=12 f=M- t=int32 v=0
+				AVP: Subscription-ID-Data(444) l=12 f=M- t=utf8String v=111
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=2
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=2
+
+]
+2018-11-17 12:57:00,242 DEBUG protocol-diameter-base.Peer [Diameter-parser-15] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=352; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=18; EndID=1740636167]) on session DiameterClientGy_ASRScenario;-15306223;2643595264
+2018-11-17 12:57:00,242 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-15] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=352; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=18; EndID=1740636167])
+2018-11-17 12:57:00,243 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=352; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=18; EndID=1740636167])
+2018-11-17 12:57:00,244 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 24 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:00,244 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onReceivedMessageEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:00,244 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Header application id: 4
+2018-11-17 12:57:00,244 DEBUG protocol-diameter-base.common.Utils [DiameterPeerSM-LocaHost] : Found auth-app-id: Auth-Application-Id:4
+2018-11-17 12:57:00,244 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : Received request DiameterMessage (Header [Ver=1; Len=352; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=18; EndID=1740636167])
+2018-11-17 12:57:00,245 INFO  TestDiameterStack  [DiameterPeerSM-LocaHost] : IDiameterMessage[
+Header [Ver=1; Len=352; Flag=0x80; ComCode=272; ApplicationId=4; H&HID=18; EndID=1740636167]
+	AVP: Session-ID(263) l=60 f=M- t=utf8String v=DiameterClientGy_ASRScenario;-15306223;2643595264
+	AVP: Destination-Realm(283) l=20 f=M- t=octetString v=amdocs.com
+	AVP: Destination-Host(293) l=16 f=M- t=octetString v=PCRF1
+	AVP: Origin-Host(264) l=36 f=M- t=octetString v=DiameterClientGy_ASRScenario
+	AVP: Origin-Realm(296) l=20 f=M- t=octetString v=jnetx.com
+	AVP: Multiple-Services-Credit-Control(456) l=88 f=M- t=group v=
+				AVP: Rating-Group(432) l=12 f=M- t=uint32 v=1000
+				AVP: Service-Identifier(439) l=12 f=M- t=int32 v=2
+				AVP: Used-Service-Unit(446) l=56 f=M- t=group v=
+							AVP: CC-Total-Octets(421) l=16 f=M- t=uint64 v=0
+							AVP: Unknown avp(412) l=16 f=M- v=0000000000000000
+							AVP: Unknown avp(414) l=16 f=M- v=0000000000000000
+	AVP: Vendor-Id(266) l=12 f=M- t=uint32 v=10415
+	AVP: Auth-Application-Id(258) l=12 f=M- t=uint32 v=4
+	AVP: Acct-Application-Id(259) l=12 f=M- t=uint32 v=0
+	AVP: CC-Request-Number(415) l=12 f=M- t=uint32 v=3
+	AVP: CC-Request-Type(416) l=12 f=M- t=int32 v=3
+	AVP: Subscription-ID(443) l=32 f=M- t=group v=
+				AVP: Subscription-ID-Type(450) l=12 f=M- t=int32 v=0
+				AVP: Subscription-ID-Data(444) l=12 f=M- t=utf8String v=111
+
+]
+2018-11-17 12:57:16,468 DEBUG protocol-diameter-base.Peer [Diameter-parser-16] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1462763641])
+2018-11-17 12:57:16,468 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-16] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1462763641])
+2018-11-17 12:57:16,468 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1462763641])
+2018-11-17 12:57:16,469 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:57:16,469 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:57:16,469 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:19,795 DEBUG protocol-diameter-base.Peer [Diameter-parser-17] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1333788841])
+2018-11-17 12:57:19,796 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-17] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1333788841])
+2018-11-17 12:57:19,796 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1333788841])
+2018-11-17 12:57:19,796 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:57:19,796 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:57:19,796 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:21,718 DEBUG protocol-diameter-base.Peer [Diameter-parser-18] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1201668277])
+2018-11-17 12:57:21,718 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-18] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1201668277])
+2018-11-17 12:57:21,719 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=15; EndID=1201668277])
+2018-11-17 12:57:21,719 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:57:21,719 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:57:21,719 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:25,851 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668316])
+2018-11-17 12:57:25,851 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668316])
+2018-11-17 12:57:25,851 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668316])
+2018-11-17 12:57:25,852 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:25,852 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:25,852 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.Peer [Diameter-parser-20] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1462763655])
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-20] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1462763655])
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1462763655])
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:57:46,473 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:49,799 DEBUG protocol-diameter-base.Peer [Diameter-parser-21] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1333788855])
+2018-11-17 12:57:49,799 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-21] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1333788855])
+2018-11-17 12:57:49,800 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1333788855])
+2018-11-17 12:57:49,800 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:57:49,800 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:57:49,800 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.Peer [Diameter-parser-22] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1201668294])
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-22] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1201668294])
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=16; EndID=1201668294])
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:57:51,722 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:57:55,854 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668335])
+2018-11-17 12:57:55,854 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668335])
+2018-11-17 12:57:55,854 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668335])
+2018-11-17 12:57:55,854 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:55,854 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:57:55,855 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:16,477 DEBUG protocol-diameter-base.Peer [Diameter-parser-23] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1462763670])
+2018-11-17 12:58:16,477 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-23] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1462763670])
+2018-11-17 12:58:16,477 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1462763670])
+2018-11-17 12:58:16,477 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:58:16,477 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:58:16,478 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:19,806 DEBUG protocol-diameter-base.Peer [Diameter-parser-24] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1333788869])
+2018-11-17 12:58:19,806 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-24] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1333788869])
+2018-11-17 12:58:19,807 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1333788869])
+2018-11-17 12:58:19,807 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:58:19,807 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:58:19,807 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:21,725 DEBUG protocol-diameter-base.Peer [Diameter-parser-25] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1201668309])
+2018-11-17 12:58:21,725 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-25] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1201668309])
+2018-11-17 12:58:21,726 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=17; EndID=1201668309])
+2018-11-17 12:58:21,726 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:58:21,726 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:58:21,726 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668349])
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668349])
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668349])
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:58:25,857 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:46,481 DEBUG protocol-diameter-base.Peer [Diameter-parser-26] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1462763687])
+2018-11-17 12:58:46,482 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-26] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1462763687])
+2018-11-17 12:58:46,482 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1462763687])
+2018-11-17 12:58:46,482 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:58:46,482 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:58:46,482 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:49,812 DEBUG protocol-diameter-base.Peer [Diameter-parser-27] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1333788884])
+2018-11-17 12:58:49,812 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-27] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1333788884])
+2018-11-17 12:58:49,812 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1333788884])
+2018-11-17 12:58:49,812 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:58:49,812 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:58:49,813 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.Peer [Diameter-parser-28] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1201668323])
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-28] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1201668323])
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=18; EndID=1201668323])
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:58:51,745 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:58:55,860 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668365])
+2018-11-17 12:58:55,860 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668365])
+2018-11-17 12:58:55,860 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668365])
+2018-11-17 12:58:55,860 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:58:55,860 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:58:55,861 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.Peer [Diameter-parser-29] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1462763702])
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-29] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1462763702])
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1462763702])
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:59:16,485 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:19,819 DEBUG protocol-diameter-base.Peer [Diameter-parser-30] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1333788899])
+2018-11-17 12:59:19,819 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-30] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1333788899])
+2018-11-17 12:59:19,820 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1333788899])
+2018-11-17 12:59:19,820 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:59:19,820 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:59:19,820 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.Peer [Diameter-parser-31] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668337])
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-31] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668337])
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=19; EndID=1201668337])
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:59:21,753 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:25,862 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=23; EndID=1201668379])
+2018-11-17 12:59:25,863 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=23; EndID=1201668379])
+2018-11-17 12:59:25,863 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=23; EndID=1201668379])
+2018-11-17 12:59:25,863 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:59:25,863 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:59:25,863 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.Peer [Diameter-parser-29] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1462763719])
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-29] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1462763719])
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1462763719])
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 12:59:46,488 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:49,822 DEBUG protocol-diameter-base.Peer [Diameter-parser-30] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1333788913])
+2018-11-17 12:59:49,822 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-30] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1333788913])
+2018-11-17 12:59:49,822 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1333788913])
+2018-11-17 12:59:49,822 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:59:49,823 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 12:59:49,823 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.Peer [Diameter-parser-31] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668352])
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-31] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668352])
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=20; EndID=1201668352])
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 12:59:51,756 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 12:59:55,877 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=24; EndID=1201668393])
+2018-11-17 12:59:55,877 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=24; EndID=1201668393])
+2018-11-17 12:59:55,878 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=24; EndID=1201668393])
+2018-11-17 12:59:55,878 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:59:55,878 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 12:59:55,878 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.Peer [Diameter-parser-29] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1462763736])
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-29] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1462763736])
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1462763736])
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 13:00:16,491 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:19,824 DEBUG protocol-diameter-base.Peer [Diameter-parser-30] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1333788930])
+2018-11-17 13:00:19,825 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-30] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1333788930])
+2018-11-17 13:00:19,825 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1333788930])
+2018-11-17 13:00:19,825 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 13:00:19,825 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 13:00:19,825 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:21,758 DEBUG protocol-diameter-base.Peer [Diameter-parser-31] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668366])
+2018-11-17 13:00:21,758 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-31] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668366])
+2018-11-17 13:00:21,758 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=21; EndID=1201668366])
+2018-11-17 13:00:21,759 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 13:00:21,759 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 13:00:21,759 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=25; EndID=1201668410])
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=25; EndID=1201668410])
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=25; EndID=1201668410])
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 13:00:25,881 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:46,494 DEBUG protocol-diameter-base.Peer [Diameter-parser-29] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1462763753])
+2018-11-17 13:00:46,494 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-29] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1462763753])
+2018-11-17 13:00:46,494 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@3dd1a577 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1462763753])
+2018-11-17 13:00:46,494 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 13:00:46,494 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112]
+2018-11-17 13:00:46,495 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.4 : Socket[addr=/192.168.248.231,port=60513,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:49,828 DEBUG protocol-diameter-base.Peer [Diameter-parser-30] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1333788947])
+2018-11-17 13:00:49,828 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-30] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1333788947])
+2018-11-17 13:00:49,828 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@2a747a37 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1333788947])
+2018-11-17 13:00:49,829 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 13:00:49,829 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112]
+2018-11-17 13:00:49,829 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.3 : Socket[addr=/192.168.248.231,port=46294,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.Peer [Diameter-parser-31] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668383])
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-31] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668383])
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@5c3dd423 process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=22; EndID=1201668383])
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112]
+2018-11-17 13:00:51,761 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.2 : Socket[addr=/192.168.248.231,port=55187,localport=6112] : Try to send a DWA message
+2018-11-17 13:00:55,883 DEBUG protocol-diameter-base.Peer [Diameter-parser-19] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Message received DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=26; EndID=1201668429])
+2018-11-17 13:00:55,883 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [Diameter-parser-19] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b handle event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=26; EndID=1201668429])
+2018-11-17 13:00:55,883 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : State com.jnetx.protocol.diameter.base.peer.fsm.impl.PeerOpen@4646004b process event  Type=24 Data=DiameterMessage (Header [Ver=1; Len=64; Flag=0x80; ComCode=280; ApplicationId=0; H&HID=26; EndID=1201668429])
+2018-11-17 13:00:55,884 DEBUG protocol-diameter-base.peer.fsm.PeerStateBase [DiameterPeerSM-LocaHost] : PeerState: PeerStateBase.processEvent 27 on router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 13:00:55,884 DEBUG protocol-diameter-base.peer.fsm.PeerStateMachine [DiameterPeerSM-LocaHost] : PeerState: PeerOpen.onRecDwrEvent router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112]
+2018-11-17 13:00:55,884 DEBUG protocol-diameter-base.Peer [DiameterPeerSM-LocaHost] : router-out-1.1 : Socket[addr=/192.168.248.231,port=55709,localport=6112] : Try to send a DWA message
